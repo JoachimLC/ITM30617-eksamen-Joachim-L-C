@@ -6,11 +6,11 @@ const LogList = ({ logs }) => {
       <ul>
         {logs.map((logitem) => (
           <li key={logitem._id}>
-            <div>{new Date(logitem._createdAt).toLocaleString()}</div>
-            <div>{new Date(logitem.date).toLocaleString()}</div>
-            <div>{logitem.memberName}</div>
-            <div>{logitem.action}</div>
-            <div>{logitem.hoursSpent}</div>
+            <time>{new Date(logitem._createdAt).toLocaleString()}</time>
+            <time>{new Date(logitem.date).toLocaleString()}</time>
+            <p>{logitem.memberName}</p>
+            <p>{logitem.action}</p>
+            <p>{logitem.hoursSpent}</p>
           </li>
         ))}
       </ul>

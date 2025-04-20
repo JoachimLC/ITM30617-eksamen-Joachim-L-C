@@ -5,16 +5,16 @@ const WorkLog = ({ logs }) => {
   return (
     <>
       <h1>Arbeidslogg</h1>
-      <div className="Worklog">
-        <div className="loglistHeader">
+      <section className="Worklog">
+        <header className="loglistHeader">
           <p>Når loggført</p>
           <p>Når gjennomført</p>
           <p>Navn</p>
           <p>Endring</p>
           <p>Timer</p>
-        </div>
+        </header>
         <LogList logs={logs} />
-      </div>
+      </section>
     </>
   );
 };

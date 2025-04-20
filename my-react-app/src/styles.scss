@@ -72,10 +72,9 @@ nav {
 .card {
     flex: 0 0 17rem;
     border: 1px solid $border-color;
-    a {
-        text-decoration: none;
-        color: $text-dark;
-    }
+    text-decoration: none;
+    color: $text-dark;
+    
 }
 
 .memberCardImage {
@@ -91,7 +90,7 @@ nav {
 
     p {
         color: $text-light;
-        font-size: 0.95rem;
+        font-size: 0.8rem;
     }
 }
 
