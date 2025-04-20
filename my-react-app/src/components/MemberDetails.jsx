@@ -3,15 +3,15 @@ import { urlFor } from '../sanity/service';
 
 const MemberDetails = ({ member }) => {
   return (
-    <section className="details">
-      <div className="details-text">
+    <section className="memberDetails">
+      <div className="MemberDetailsText">
         <h2>{member.name}</h2>
         <p>{member.biography}</p>
       </div>
       <img 
         src={urlFor(member.image).width(300).url()}
         alt={member.name}
-        className="imagebig"
+        className="memberDetailImage"
       />
       <div className="interests">
         <h2>Interests</h2>

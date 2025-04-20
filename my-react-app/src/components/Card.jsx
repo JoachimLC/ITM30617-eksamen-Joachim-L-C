@@ -5,7 +5,7 @@ const Card = ({ id, image, name, email }) => {
   return (
     <div className="card">
       <NavLink to={`/member/${id}`}>
-        <img src={image} alt={name} className="imagesmall" />
+        <img src={image} alt={name} className="memberCardImage" />
         <div className="cardcontent">
           <h4>{name}</h4>
           <p>{email}</p>

@@ -6,6 +6,7 @@ const MemberCards = ({ groupMembers }) => {
   return (
     <>
     <h1>Gruppemedlemmer</h1>
+    <p>(For ordens skyld - jeg er alene på gruppe, men lagde fiktive medlemmer)</p>
     <section className="membercards">
   
       {groupMembers.map((member) => (

@@ -5,9 +5,10 @@ const WorkLog = ({ logs }) => {
   return (
     <>
       <h1>Arbeidslogg</h1>
-      <div className="logwrapper">
-        <div className="loglist-header">
-          <p>Dato</p>
+      <div className="Worklog">
+        <div className="loglistHeader">
+          <p>Når loggført</p>
+          <p>Når gjennomført</p>
           <p>Navn</p>
           <p>Endring</p>
           <p>Timer</p>

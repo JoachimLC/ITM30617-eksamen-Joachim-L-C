@@ -15,8 +15,8 @@ export default function Layout({ children }) {
 
   return (
     <>
-    <header className="layout">
-      <h1>Team Joachim</h1>
+    <header className="headerLayout">
+      <h1>UIN25_Gruppe35 </h1>
       <Nav groupMembers={groupMembers} />
     </header>
     <main>

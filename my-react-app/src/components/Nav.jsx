@@ -10,7 +10,7 @@ export default function Nav({ groupMembers }) {
           {groupMembers.map((member) => (
             <li key={member._id}>
               <NavLink to={`/member/${member._id}`}>
-                {member.name}
+                {member.name.split(" ")[0]}
               </NavLink>
             </li>
           ))}

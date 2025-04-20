@@ -48,6 +48,7 @@ export const getAllLogs = async () => {
   const query = `
     *[_type == "logItem"]{
       _id,
+      _createdAt,
       date,
       action,
       hoursSpent,
@@ -62,6 +63,7 @@ export const getLogsByMemberId = async (memberId) => {
   const query = `
     *[_type == "logItem" && member._ref == $memberId]{
       _id,
+      _createdAt,
       date,
       action,
       hoursSpent,
